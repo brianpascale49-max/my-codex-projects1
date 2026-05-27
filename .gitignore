@@ -1,0 +1,21 @@
+# 1. 忽略所有敏感配置文件（防止泄露 API Key、密码、Token 等）
+config.json
+config.py
+.env
+secret*.txt
+credentials.json
+
+# 2. 忽略操作系统和本地编辑器的缓存文件
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 3. 忽略 Python 运行产生的缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 4. 忽略日志文件（防止泄露运行轨迹和敏感数据）
+*.log
